@@ -1,0 +1,40 @@
+header {
+	margin-bottom: 16px;
+	background-color: $white;
+
+	@include lg {
+		padding-top: 23px;
+		padding-left: 27px;
+	}
+
+	& img {
+		@include lg {
+			width: 204px;
+			height: 58px;
+		}
+	}
+
+	@include tablet {
+		margin: 0px 25px;
+		padding-bottom: 10px;
+	}
+
+	@include subsidiary {
+		margin: 0px;
+		padding: 0 0 12px 0;
+	}
+
+	@include medium {
+		margin: 0 0 16px 0;
+		padding: 0;
+	}
+
+	@include medium-sub {
+		margin: 0 0 23px 0;
+		padding: 0;
+	}
+
+	@include mini {
+		margin: 0;
+	}
+}

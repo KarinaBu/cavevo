@@ -1,0 +1,72 @@
+.dm {
+	padding-bottom: 57px;
+
+	@include medium {
+		padding-bottom: 27px;
+	}
+
+	&__list {
+		margin-bottom: 43px;
+
+		@include medium {
+			margin-bottom: 24px;
+		}
+	}
+}
+
+.kiosk {
+	padding-bottom: 56px;
+
+	@include medium {
+		padding-bottom: 27px;
+	}
+
+	&__content-title {
+		white-space: nowrap;
+
+		@include lg {
+			white-space: normal;
+		}
+	}
+}
+
+.furniture__list {
+	margin-bottom: 42px;
+
+	@include medium {
+		margin-bottom: 24px;
+	}
+}
+
+.wallpaper {
+	padding-bottom: 55px;
+
+	@include medium {
+		padding-bottom: 27px;
+	}
+
+	&__list {
+		margin-bottom: 43px;
+
+		@include medium {
+			margin-bottom: 24px;
+		}
+	}
+}
+
+.bake {
+	margin-bottom: 20px;
+	padding-bottom: 57px;
+
+	@include medium {
+		padding-bottom: 27px;
+	}
+
+	&__list {
+		margin-bottom: 46px;
+
+		@include medium {
+			margin-bottom: 24px;
+		}
+	}
+}

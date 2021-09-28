@@ -1,0 +1,47 @@
+@mixin lg {
+	@media (max-width: (1200px)) {
+		@content;
+	}
+}
+
+@mixin space {
+	@media (max-width: (1080px)) {
+		@content;
+	}
+}
+
+@mixin tablet {
+	@media (max-width: (992px)) {
+		@content;
+	}
+}
+
+@mixin subsidiary {
+	@media (max-width: (830px)) {
+		@content;
+	}
+}
+
+@mixin medium {
+	@media (max-width: (768px)) {
+		@content;
+	}
+}
+
+@mixin medium-sub {
+	@media (max-width: (700px)) {
+		@content;
+	}
+}
+
+@mixin small {
+	@media (max-width: (576px)) {
+		@content;
+	}
+}
+
+@mixin mini {
+	@media (max-width: (574px)) {
+		@content;
+	}
+}
